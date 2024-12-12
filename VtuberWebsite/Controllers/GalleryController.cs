@@ -6,25 +6,16 @@ using System.Web.Mvc;
 
 namespace VtuberWebsite.Controllers
 {
-    public class productcontroller
+    public class GalleryController : Controller
     {
-        public ActionResult productshowing()
+        // GET: Product
+        public ActionResult Producttable()
         {
-            return Veiw();
-        }
-
-        public ActionResult producttable()
-        {
-
             return View();
         }
-
-        public ActionResult myfavorite()
+        public ActionResult Productshowing()
         {
-
             return View();
         }
-
-
     }
 }
